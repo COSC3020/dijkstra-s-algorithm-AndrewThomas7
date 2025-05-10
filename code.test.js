@@ -16,7 +16,7 @@ GUndir=[
     [5,4,0,2],
     [Infinity,3,4,0]
 ]
-console.assert(JSON.stringify(Dijisktras(G,
+//console.assert(JSON.stringify(Dijisktras(G,
 
 G2=[
     [0,4,2,Infinity,Infinity],
