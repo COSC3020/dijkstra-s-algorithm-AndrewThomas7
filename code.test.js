@@ -9,13 +9,19 @@ G=[
     [Infinity,Infinity,Infinity,0]
 ]
 console.assert(JSON.stringify(Dijisktras(G,0))==JSON.stringify([0,6,5,7]))
-                                         
+console.assert(JSON.stringify(Dijisktras(G,1))==JSON.stringify([ Infinity, 0, 4, 3 ]))
+console.assert(JSON.stringify(Dijisktras(G,2))==JSON.stringify([ Infinity, Infinity, 0, 2 ]))
+console.assert(JSON.stringify(Dijisktras(G,3))==JSON.stringify([ Infinity, Infinity, Infinity, 0 ]))                               
 GUndir=[
     [0,6,5,Infinity],
     [6,0,4,3],
     [5,4,0,2],
     [Infinity,3,4,0]
 ]
+console.assert(JSON.stringify(Dijisktras(GUndir,0))==JSON.stringify([0,6,5,7]))
+console.assert(JSON.stringify(Dijisktras(GUndir,1))==JSON.stringify([ Infinity, 0, 4, 3 ]))
+console.assert(JSON.stringify(Dijisktras(GUndir,2))==JSON.stringify([ Infinity, Infinity, 0, 2 ]))
+console.assert(JSON.stringify(Dijisktras(GUndir,3))==JSON.stringify([ Infinity, Infinity, Infinity, 0 ]))    
 //console.assert(JSON.stringify(Dijisktras(G,
 
 G2=[
