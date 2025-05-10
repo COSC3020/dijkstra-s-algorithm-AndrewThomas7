@@ -35,7 +35,7 @@ console.assert(JSON.stringify(Dijisktras(G2,0))==JSON.stringify([ 0, 3, 2, 5, 6 
 console.assert(JSON.stringify(Dijisktras(G2,1))==JSON.stringify([ Infinity, 0, 3, 2, 3 ]))
 console.assert(JSON.stringify(Dijisktras(G2,2))==JSON.stringify([ Infinity, 1, 0, 3, 4 ]))
 console.assert(JSON.stringify(Dijisktras(G2,3))==JSON.stringify([ Infinity, Infinity, Infinity, 0, Infinity ]))
-sonsole.assert(JSON.stringify(Dijisktras(G2,4))==JSON.stringify([ Infinity, Infinity, Infinity, 1, 0 ]))
+console.assert(JSON.stringify(Dijisktras(G2,4))==JSON.stringify([ Infinity, Infinity, Infinity, 1, 0 ]))
 
 G3=[
     [0,7,Infinity,Infinity,Infinity],
