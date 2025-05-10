@@ -43,9 +43,6 @@ function Dijisktras(graph,sourceNode){
         edgelist=graph[node];
         smallest=FindSmallestEdge(edgelist);
 
-        if(ArrayCompare(Visited,1)){
-            return
-        }    
         for(var x=0; x<edgelist.length;x++){
             if(edgelist[x]!=Infinity&& edgelist[x]!=0&& node!=sourceNode){
                 if(edgelist[x]+Distancelist[node]<=Distancelist[x]){
@@ -58,6 +55,9 @@ function Dijisktras(graph,sourceNode){
                 }
             }
         }
+        if(ArrayCompare(Visited,1)){
+            return
+        }    
         for( weight of edgelist){
                 if(weight==smallest && Visited[edgelist.indexOf(smallest)]!=1){
                     Dijisktras_(graph[node].indexOf(weight))
