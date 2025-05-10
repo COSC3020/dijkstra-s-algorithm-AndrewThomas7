@@ -19,6 +19,17 @@ The choice of data structures is up to you -- your implementation does not have
 to be the most efficient one, but please make sure that it is not unnecessarily
 inefficient.
 
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”-Andrew Thomas
+
+Sources
+
+#1-https://sethuram52001.medium.com/data-structures-weighted-graphs-3cd86b1b5aa9- Learned how to represent weighted graphs here
+
+#2-https://www.youtube.com/watch?v=_lHSawdgXpI- Learned about how Dijkstra's algorithm worked here and based my code off the process presented in visual representation.
+
 ## Runtime Analysis
 
 What is the big $\Theta$ complexity of your implementation? Add your
